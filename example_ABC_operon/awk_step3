@@ -1,0 +1,39 @@
+#! /usr/bin/awk -f
+
+#input1 dupl.acc.pid,being $ prot and $2 pid
+#input2 dupl.parse which is GCF "\n" prot "\n" until next GCF
+
+(ARGIND==1){
+    id=$1;
+    pid=$2;
+    f[id]=pid;
+    next;
+}
+
+{
+    if ($0 ~ /^GCF/){
+        genome=$0;
+        a[genome]="";
+        next;
+    }
+}
+
+{
+    if ($0 !~ /^GCF/){
+        if ($0 in f){
+            prot=$0;
+            pid=f[prot];
+            if (pid >= check[genome]){
+                check[genome]=pid;
+                double_check[genome]=prot" "pid;
+                next;
+            }
+        }   
+    }
+}
+
+END{    
+    for (genome in double_check){ 
+        print genome" "double_check[genome] 
+    }
+}

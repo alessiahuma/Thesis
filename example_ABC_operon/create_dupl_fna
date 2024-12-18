@@ -1,0 +1,19 @@
+#! /usr/bin/awk -f
+
+(ARGIND==1){
+    if ($0 ~ ">"){
+        id=$1;
+        a[id]=""}
+    }
+{
+    if ($0 !~ ">"){
+        a[id]=a[id] "\n" $0
+    }
+}
+
+(ARGIND==2){
+    ok=$1;
+    if (ok in a){
+        print $0,a[ok];
+    }
+} 

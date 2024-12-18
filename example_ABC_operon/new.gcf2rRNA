@@ -1,0 +1,53 @@
+#! /usr/bin/env bash
+
+extract_16S_rRNA () {
+for d in ./16S/unzip_gff3/ncbi_dataset/data/GCF*; do 
+    for file in "$d"/genomic*; do 
+        z="$(basename "${d}")";
+        grep "16S ribosomal RNA" $file | grep "ID=rna" | grep -v "protein" | grep -v "exon" | grep -v "partial"  > ./16S/unzip_gff3/ncbi_dataset/data/"$z".16S_rRNA;
+    done; 
+done;
+}
+
+extract_16S_rRNA;
+
+echo "16S";
+
+get_fields() {
+for file2 in ./16S/unzip_gff3/ncbi_dataset/data/*.16S_rRNA; do
+   z="$(basename "${file2%.*}")";
+    if [ -s $file2 ]; then
+        check=$(wc $file2 | awk '{print $1}') 
+        if [ $check == 1 ]; then
+            while read entry; do
+                complement_filter=$(echo $entry | awk '{print $7}');
+                if [[ $complement_filter =~ "+" ]]; then
+                    echo $entry | awk '{print $1" "$4" "$5}' >> ./16S/unzip_gff3/ncbi_dataset/data/"$z".fields; 
+                elif [[ $complement_filter =~ "-" ]]; then
+                    echo $entry | awk '{print $1" "$5" "$4}' >> ./16S/unzip_gff3/ncbi_dataset/data/"$z".fields; 
+                fi;
+            done < $file2;
+        fi;
+    fi;
+done;
+}
+
+get_fields; 
+
+echo "fields";
+
+get_fasta () {
+for file3 in ./16S/unzip_gff3/ncbi_dataset/data/*fields; do
+    while read line; do 
+        z="$(basename "${file3%.*}")";
+        id=$(echo $line | awk '{print $1}');
+        str=$(echo $line | awk '{print $2}');
+        stp=$(echo $line | awk '{print $3}');
+        efetch -db nuccore -format fasta -id "$id" -chr_start "$str" -chr_stop "$stp" >> ./16S/unzip_gff3/ncbi_dataset/data/"$z".fasta;
+    done < $file3;
+done; 
+}
+
+get_fasta;
+
+echo "fasta";

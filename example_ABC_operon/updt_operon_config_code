@@ -1,0 +1,303 @@
+#! /usr/bin/env bash
+
+#before running code ensure that...
+#(1) one capital letter dir with clusters.txt is made for each mcy prot in the same dir
+# this clusters.txt should be parse.clusters from PI6
+#(2) ensure that new.gcf2rRNA is in the same dir
+#(3) ensure that conc_mafft is in the same dir
+#(4) ensure that awk_step3 is in the same dir
+#(5) ensure that updt operon config is in the same dir
+
+extract_taxids_and_prot() { #save taxids and prot from clusters.txt 
+for dir in ./[A-Z]; do
+    awk -F',' '{print  $3", "$5}' $dir/clusters.txt | sort | uniq > $dir/prot.taxids;
+    awk -F',' '{print  $5}' $dir/clusters.txt | awk '{print $1}' | sort | uniq > $dir/taxids;
+    awk -F',' '{print  $3}' $dir/clusters.txt | awk '{print $1}' | sort | uniq > $dir/prot;
+done
+}
+
+extract_taxids_and_prot;
+
+echo "extract_taxids_and_prot";
+
+obtain_fasta(){ 
+for dir in ./[A-Z]; do
+    DlGenBank.pl -d protein -r fasta $dir/prot > $dir/prot.fasta;
+    echo "$(grep "^>" -c $dir/prot.fasta)";
+    awk '/^>/{print substr($1,2)}' $dir/prot.fasta > $dir/prot.cut;
+    awk '{if($0 !~ /\|/){print $0}}' $dir/prot.cut > $dir/2.prot.cut;
+    awk '(ARGIND==1){a[$1];next}{split($0,k,", ");if (k[1] in a){print $0}}' $dir/2.prot.cut $dir/prot.taxids > $dir/2.prot.taxids 
+done
+}
+
+obtain_fasta;
+
+echo "obtain_fasta";
+
+#this is because fasta only takes refseq one and will eliminate the
+#redundant seqs for you
+#using those prots from fasta download the gcfs
+
+# take gcf that matches same taxid to make it as accurate as possible
+# that is why $2 in a not $1 in a in next function
+# matches gcf from assembly matches that the taxid searching for so
+# onnly if 1160 and 1160 
+
+obtain_gcf () { 
+for dir in ./[A-Z]; do
+    mkdir $dir/taxid_files;
+    while read -r line; do  
+        line2=$(echo $line | awk -F', ' '{print $2}');
+        echo $line2 | datasets summary genome taxon $line2 --annotated --assembly-source refseq --as-json-lines | dataformat tsv genome --fields organism-tax-id,accession,organism-name >> $dir/taxid_files/"$line2".taxid.gcf.sciname;
+        echo "$line2";
+        grep "$line2" $dir/taxid_files/"$line2".taxid.gcf.sciname;
+        grep "$line2" $dir/taxid_files/"$line2".taxid.gcf.sciname | awk -v var=$line2 '{print var, $0}' >> $dir/ogtaxid.taxid.gcf.sciname; 
+        #| awk -v var=$line2 '(NR==1){print var, $0}' >> $dir/ogtaxid.taxid.gcf.sciname;
+    done < $dir/2.prot.taxids;
+    sort $dir/ogtaxid.taxid.gcf.sciname | uniq > $dir/total.uniq.ogtaxid.taxid.gcf.sciname;
+    awk '(ARGIND==1){split($0,i,", ");a[i[2]];next}{if ($2 in a){print $1", "$2", "$3", "$4,$5,$6,$7}}' $dir/2.prot.taxids $dir/total.uniq.ogtaxid.taxid.gcf.sciname > $dir/total.cut.ogtaxid.taxid.gcf.sciname;
+    awk -F', ' '{if ($3 ~ /GCF/){print $3}}' $dir/total.cut.ogtaxid.taxid.gcf.sciname > $dir/pre.cut.gcf;
+    sort $dir/pre.cut.gcf | uniq > $dir/cut.gcf;
+done
+} # the taxid of gcf needs to match not og since that gcf could be under dif species or genera 
+
+obtain_gcf;
+echo "obtain_gcf";
+
+mkdir common_dir;
+
+common_gcf1(){ #figure out the amount of mcy prot working with
+x="";
+for dir in ./[A-Z]; do
+    x="$x""$(basename $dir)";
+done
+}
+
+common_gcf1;
+
+echo $x;
+
+echo "common_gcf1";
+
+common_gcf2(){ #create common gcfs between the mcy prots
+end=${#x}
+end=$(($end-1))
+start=1
+for i in $(seq $start $end); do 
+    if [[ $i -le $start ]]; then
+        gcf1=${x:0:1};
+        gcf2=${x:$i:1};
+        comm -12 "$gcf1"/cut.gcf "$gcf2"/cut.gcf > common_dir/"$gcf1""$gcf2".cut.gcf
+        gcf1="$gcf1""$gcf2"
+    elif [[ $i -le $end ]]; then
+        gcf2=${x:$i:1};
+        comm -12 common_dir/"$gcf1".cut.gcf "$gcf2"/cut.gcf > common_dir/"$gcf1""$gcf2".cut.gcf
+        gcf1="$gcf1""$gcf2"
+    fi
+done
+
+commgcf="$gcf1";
+awk '/^GCF/{print $0}' common_dir/"$commgcf".cut.gcf > common_dir/comm.gcf;
+
+}
+
+common_gcf2;
+
+echo "common_gcf2";
+
+echo "$(grep ^ -c comm.gcf)";
+
+# once we grabbed common gcf
+# before keep going eliminate the gcf with no 16S or multiple 16S
+
+datasets download genome accession --inputfile common_dir/comm.gcf --include gff3;
+
+mkdir 16S;
+
+mv ncbi_dataset.zip ./16S/;
+
+unzip ./16S/ncbi_dataset.zip -d ./16S/unzip_gff3;
+
+./new.gcf2rRNA;
+
+count_gcf_with_16S_rRNA(){ #this is to eliminate gcf with no 16S rRNA
+for file in ./16S/unzip_gff3/ncbi_dataset/data/*16S*; do 
+    x="$(basename "${file%.*}")"; 
+    y=$(grep "rRNA" -c $file); 
+    echo $x $y >> ./16S/gcf.rRNA.count; 
+done
+}
+
+count_gcf_with_16S_rRNA;
+
+echo "count_gcf_with_16S_rRNA";
+
+awk '{if ($2 == "0"){print $0}}' ./16S/gcf.rRNA.count > ./16S/gcf.rRNA.count.0;
+
+awk '{if ($2 != "0"){print $0}}' ./16S/gcf.rRNA.count > ./16S/gcf.rRNA.count.plus1;
+
+
+grab_gcf_with_1_16S(){
+for file in ./16S/unzip_gff3/ncbi_dataset/data/*fasta*; do
+    x="$(basename "${file%.*}")"; 
+    echo $x >> ./16S/gcf.rRNA.count.1;
+done
+}
+
+grab_gcf_with_1_16S;
+
+echo "grab_gcf_with_1_16S";
+
+echo "$(grep ^ -c ./16S/gcf.rRNA.count.1)";
+
+extract_gcf_with_prot(){
+for dir in ./[A-Z]; do
+    while read -r line; do
+        for file in ./16S/unzip_gff3/ncbi_dataset/data/$line/genomic.gff;do
+            echo "ACCESSION:" "$line";
+            echo "ACCESSION:" "$line" >> $dir/parse.gcf.taxid.prot;
+            grep "$line" $dir/total.cut.ogtaxid.taxid.gcf.sciname | awk -F', ' '{if ($1 == $2){print $0}}' >> $dir/parse.gcf.taxid.prot; 
+            tax="$(grep "$line" $dir/total.cut.ogtaxid.taxid.gcf.sciname | awk -F', ' '{if ($1 == $2){print $2}}')" >> $dir/parse.gcf.taxid.prot; 
+            echo "TAXID:" $tax >> $dir/parse.gcf.taxid.prot;
+            echo "TAXID:" $tax;
+            prot=$(awk -v var=" $tax" '{x=var;split($0,k,", ");\
+            if ($2 == (x)){if ($2 in s){s[$2]=s[$2]" "$1;next}else s[$2]=$1;next}}\
+            END{for (key in s){print "PROTEIN: " s[key];}}' $dir/2.prot.taxids);
+            echo $prot >> $dir/parse.gcf.taxid.prot;
+            echo $prot;
+            echo $prot | awk '/^PRO/{split($0,p,"PROTEIN: ");x=split(p[2],q,", ");\
+            for(i=1;i<=x;i++){print q[i]}}' | awk '{gsub(/,/,"",$0);print $0}' >> $dir/parse.prot;
+            echo "ACCESSION: ""$line"" ""TAXID: ""$tax"" ""$prot" >> $dir/parse.ans;
+        done;
+    done < ./16S/gcf.rRNA.count.1;
+done
+}
+
+extract_gcf_with_prot;
+echo "extract_gcf_with_prot";
+
+# running into issue where i have 1 gcf wit various prot
+
+extract_high_pi_per_gcf1(){ #extract highest pi prot per gcf
+for dir in ./[A-Z]; do
+    x="$(basename $dir)";
+    echo "$x";
+    awk '{split($0,k,"PROTEIN: ");split(k[1],j,"TAXID: ");split(j[1],l,"ACCESSION: ");x=split(k[2],n,", ");print l[2];for(i=1;i<=x;i++){print n[i]}}' $dir/parse.ans | awk '{gsub(",","",$0);print $0}' > $dir/highpi;
+    awk '(ARGIND==1){if ($0 !~ /^GCF/){b[$0]=0}} \
+    /^Percent Identity:/{split($3,k,"%");pid=k[1];next} \
+    /cluster member\(s\):/{inTable=1;getline; next;} \
+    /^$/{inTable=0;next;} \
+    (inTable){split($0,c," ");id=c[1];if(id in b){if(pid >= check[id]){check[id]=pid;next}}} \
+    END{for (entry in check){print entry" "check[entry]}}' $dir/highpi ~/Desktop/cyanotoxins/analysis/replication_setup/part2/my.mcy.pept.seqs/2.mcy.blastp/main.PI0/mcy"$x"/clusters.txt | cat > $dir/highpi.acc.pid;
+done
+}
+
+extract_high_pi_per_gcf1;
+
+echo "extract_high_pi_per_gcf1";
+
+extract_high_pi_per_gcf2(){ #gather the cut prot that are highest pi
+for dir in ./[A-Z]; do
+    ./awk_step3 $dir/highpi.acc.pid $dir/highpi > $dir/highpi.gcf.prot.pi;
+    awk '{print $2}' $dir/highpi.gcf.prot.pi > $dir/highpi.prot;
+done 
+}
+
+extract_high_pi_per_gcf2;
+
+echo "extract_high_pi_per_gcf2";
+
+
+obtain_fasta_and_mafft_mcy(){
+for dir in ./[A-Z]; do
+    DlGenBank.pl -d protein -r fasta $dir/highpi.prot > $dir/parse.prot.fasta;
+    awk '(ARGIND==1){split($0,k,"PROTEIN: ");split(k[1],n,"ACCESSION: ");split(n[2],m,"TAXID: ");\
+    split(k[1],r,"TAXID: ");z=split(k[2],o,", ");if(z >= 2){\
+    for(i=1;i<=z;i++){gsub(",","",o[i]);a[o[i]]=m[1] r[2];}}\
+    else {gsub(",","",o[1]);a[o[1]]=m[1] r[2];}}\
+    /^>/{id=substr($1,2);if(id in a){split($0,j,"[");split(j[2],l,"]");print $1, a[id] "[" l[1] "]";}}' $dir/parse.ans $dir/parse.prot.fasta > $dir/parse.prot.header; 
+    awk '(ARGIND==1){id=substr($1,2);a[id]=$0;next}\
+    /^>/{p=0;id2=substr($1,2);if(id2 in a){p=1;print a[id2];}}(p==1 && $0 !~ /^>/)' $dir/parse.prot.header $dir/parse.prot.fasta > $dir/final.parse.prot.fasta
+    mafft $dir/final.parse.prot.fasta > $dir/final.parse.prot.fasta.mafft;
+done
+}
+
+obtain_fasta_and_mafft_mcy;
+echo "obtain_fasta_and_mafft_mcy";
+
+# now that we aligned each prot you can concatenate by gcf
+
+concatenate_mafft1(){ #see how many mcy prots we have
+x="";
+for dir in ./[A-Z]; do
+    x="$x""$(basename $dir)";
+done;
+}
+
+concatenate_mafft1;
+
+echo "$x";
+
+echo "concatenate_mafft1";
+
+mkdir conc_dir;
+
+concatenate_mafft2() { #continue
+end=${#x}
+end=$(($end-1))
+start=1
+for i in $(seq $start $end); do 
+    if [[ $i -le $start ]]; then
+        maf1=${x:0:1};
+        maf2=${x:$i:1};
+        ./conc_mafft "$maf1"/final.parse.prot.fasta.mafft "$maf2"/final.parse.prot.fasta.mafft > conc_dir/"$maf1""$maf2".mafft
+        maf1="$maf1""$maf2"
+    elif [[ $i -le $end ]]; then
+        maf2=${x:$i:1};
+        ./conc_mafft conc_dir/"$maf1".mafft "$maf2"/final.parse.prot.fasta.mafft > conc_dir/"$maf1""$maf2".mafft
+        maf1="$maf1""$maf2"
+    fi
+done
+}
+
+concatenate_mafft2;
+
+echo "concatenate_mafft2";
+
+concmaf="$maf1";
+
+cp conc_dir/"$concmaf".mafft the.mafft;
+
+echo "$(grep "^>" -c the.mafft)";
+
+mkdir iqtrees_16S;
+
+mkdir iqtrees_mcy;
+
+obtain_fasta_16S(){
+while read -r line; do
+    for file in ./16S/unzip_gff3/ncbi_dataset/data/$line.fasta; do 
+        y=$line; 
+        awk -v var="$y" '/^>/{split($0,l,",");\
+        x=split(l[1],k," ");for(i=2;i<=x;i++){a[k[1]]=a[k[1]] k[i]" "}}\
+        /^[^>]/{b[k[1]]=b[k[1]] $0"\n"}\
+        END{for (key in a){print key" "var" ["a[key]"]""\n" b[key]}}' $file > ./16S/unzip_gff3/ncbi_dataset/data/"$y".fasta.edited;
+    done
+
+done  < ./16S/gcf.rRNA.count.1; 
+}
+
+obtain_fasta_16S;
+
+echo "obtain_fasta_16S";
+
+obtain_mafft_16S(){
+for file2 in ./16S/unzip_gff3/ncbi_dataset/data/*edited*; do
+    cat $file2 >> ./16S/all.gcf.fasta;
+done
+mafft ./16S/all.gcf.fasta > ./16S/all.gcf.fasta.mafft
+}
+
+obtain_mafft_16S;
+
+echo "obtain_mafft_16S";

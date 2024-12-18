@@ -1,0 +1,28 @@
+#! /usr/bin/awk -f
+
+(ARGIND==1){
+    if ($0 ~ /^>/){
+        id1=$2;
+        a[id1]=$0;
+        p=0;
+    }
+    else {if ($0 !~ /^$/){a[id1]=a[id1] "\n" $0}};
+}
+
+(ARGIND==2){
+    if ($0 ~ /^>/){
+        id2=$2;
+        #a[id2]=a[id2] "\n" $0;
+        #for single header run comment the one above this line out
+        p=0;
+    }
+    
+    else {if ($0 !~ /^$/){a[id2] = a[id2]"\n" $0;}}
+}
+
+END{
+    for (id in a){
+        print a[id]
+    }
+}
+

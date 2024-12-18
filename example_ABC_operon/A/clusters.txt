@@ -1,0 +1,810 @@
+       3,WP_271927241.1,WP_271927241.1,Microcystis aeruginosa,1126
+2,WP_271927241.1,WIW78406.1,Microcystis aeruginosa,3054858
+1,WP_271927241.1,WIW78424.1,Microcystis aeruginosa,3054859
+       51,WP_193958816.1,WP_193958816.1,Microcystis sp.,1828687
+50,WP_193958816.1,MCU7244372.1,Microcystis aeruginosa,2970999
+49,WP_193958816.1,NCQ67704.1,Microcystis aeruginosa,2685994
+48,WP_193958816.1,NCQ97822.1,Microcystis aeruginosa,2685974
+47,WP_193958816.1,NCR33980.1,Microcystis aeruginosa,2685986
+46,WP_193958816.1,NCR42810.1,Microcystis aeruginosa,2685987
+45,WP_193958816.1,TRU37023.1,Microcystis aeruginosa,2486253
+44,WP_193958816.1,TRU45346.1,Microcystis aeruginosa,2486250
+43,WP_193958816.1,TRU64678.1,Microcystis aeruginosa,2486247
+42,WP_193958816.1,TRU89508.1,Microcystis novacekii,2486266
+41,WP_193958816.1,TRV47193.1,Microcystis panniformis,2486225
+40,WP_193958816.1,WIW78377.1,Microcystis aeruginosa,267865
+39,WP_193958816.1,WIW78457.1,Microcystis aeruginosa,267872
+38,WP_193958816.1,WP_002742835.1,Microcystis aeruginosa,1126
+37,WP_193958816.1,WP_002793215.1,Microcystis aeruginosa,1126
+36,WP_193958816.1,WP_002797056.1,Microcystis aeruginosa,1126
+35,WP_193958816.1,WP_004161726.1,Microcystis aeruginosa,1126
+34,WP_193958816.1,WP_012266628.1,Microcystis aeruginosa,1126
+33,WP_193958816.1,WP_036397508.1,Microcystis aeruginosa,1126
+32,WP_193958816.1,WP_052277918.1,Microcystis panniformis,513223
+31,WP_193958816.1,WP_061431778.1,Microcystis aeruginosa,1126
+30,WP_193958816.1,WP_072923806.1,Microcystis aeruginosa,1126
+29,WP_193958816.1,WP_079210282.1,Microcystis aeruginosa,1126
+28,WP_193958816.1,WP_103111553.1,Microcystis aeruginosa,1126
+27,WP_193958816.1,WP_110577710.1,Microcystis aeruginosa,1126
+26,WP_193958816.1,WP_125730559.1,Microcystis viridis,44822
+25,WP_193958816.1,WP_147068643.1,Microcystis aeruginosa,1126
+24,WP_193958816.1,WP_149985539.1,Microcystis aeruginosa,1126
+23,WP_193958816.1,WP_185237539.1,Microcystis cyanobacteria,1125
+22,WP_193958816.1,WP_190723011.1,Microcystis flos-aquae,109615
+21,WP_193958816.1,WP_194032317.1,Microcystis sp.,1828685
+20,WP_193958816.1,WP_271938425.1,Microcystis aeruginosa,1126
+19,WP_193958816.1,WP_271950394.1,Microcystis aeruginosa,1126
+18,WP_193958816.1,WP_272013867.1,Microcystis aeruginosa,1126
+17,WP_193958816.1,WP_272103786.1,Microcystis sp.,3021718
+16,WP_193958816.1,WP_286824302.1,Microcystis sp.,1895004
+15,WP_193958816.1,WP_287077510.1,unclassified Microcystis,2643300
+14,WP_193958816.1,WP_287107967.1,unclassified Microcystis,2643300
+13,WP_193958816.1,WP_287170157.1,unclassified Microcystis,2643300
+12,WP_193958816.1,WP_287230582.1,Microcystis sp.,2486218
+11,WP_193958816.1,WP_287627207.1,unclassified Microcystis,2643300
+10,WP_193958816.1,WP_287672578.1,unclassified Microcystis,2643300
+9,WP_193958816.1,WP_287686861.1,unclassified Microcystis,2643300
+8,WP_193958816.1,WP_287692361.1,unclassified Microcystis,2643300
+7,WP_193958816.1,WP_287729598.1,Microcystis sp.,2771165
+6,WP_193958816.1,WP_287730548.1,Microcystis sp.,2771135
+5,WP_193958816.1,WP_287734404.1,Microcystis sp.,2771104
+4,WP_193958816.1,WP_287738114.1,Microcystis sp.,2771160
+3,WP_193958816.1,WP_288031931.1,Microcystis sp.,3016432
+2,WP_193958816.1,WP_288059367.1,unclassified Microcystis,2643300
+1,WP_193958816.1,WP_288140178.1,Microcystis sp.,3016438
+       1,WP_287754994.1,WP_287754994.1,Microcystis sp.,2771103
+       1,ATO58427.1,ATO58427.1,Phormidium sp.,2027342
+       1,WP_265272333.1,WP_265272333.1,Nostoc sp.,457945
+       2,WP_096679367.1,WP_096679367.1,Fischerella sp.,2005456
+1,WP_096679367.1,MBW4432011.1,Pelatocladus maniniholoensi...,1117104
+       10,WP_174783512.1,WP_174783512.1,Dolichospermum sp.,2590011
+9,WP_174783512.1,AXQ17036.1,uncultured Anabaena,332970
+8,WP_174783512.1,MBO1055824.1,Dolichospermum sp.,2717872
+7,WP_174783512.1,MBS9394663.1,Dolichospermum sp.,2717874
+6,WP_174783512.1,MTJ23561.1,Dolichospermum sp.,2590011
+5,WP_174783512.1,MTJ34480.1,Dolichospermum sp.,2590025
+4,WP_174783512.1,QSV61242.1,Dolichospermum sp.,2717873
+3,WP_174783512.1,WP_015078939.1,Anabaena sp.,46234
+2,WP_174783512.1,WP_174783033.1,Dolichospermum sp.,2590025
+1,WP_174783512.1,WP_271837044.1,Dolichospermum lemmermannii,54295
+       2,TBR56785.1,TBR56785.1,Westiellopsis prolifica,1970206
+1,TBR56785.1,TFI51868.1,Mastigocladus laminosus,1594576
+       1,AGZ05275.1,AGZ05275.1,Nostoc sp.,213632
+       1,WP_229547355.1,WP_229547355.1,Nostoc sp.,2780404
+       9,WP_036832336.1,WP_036832336.1,Planktothrix cyanobacteria,54304
+8,WP_036832336.1,CAD29797.1,Planktothrix agardhii,388467
+7,WP_036832336.1,WP_027255264.1,Planktothrix agardhii,1160
+6,WP_036832336.1,WP_036843520.1,Planktothrix agardhii,1160
+5,WP_036832336.1,WP_042154173.1,Planktothrix agardhii,1160
+4,WP_036832336.1,WP_214561014.1,Planktothrix agardhii,1160
+3,WP_036832336.1,WP_227350611.1,Planktothrix agardhii,1160
+2,WP_036832336.1,WP_254031893.1,Planktothrix agardhii,1160
+1,WP_036832336.1,WP_254175588.1,Planktothrix agardhii,1160
+       1,RPH91396.1,RPH91396.1,Chroococcales cyanobacteriu...,2485785
+       1,AGD94568.1,AGD94568.1,Microcystis aeruginosa,629744
+       1,AGD94569.1,AGD94569.1,Microcystis sp.,1249800
+       1,WP_268952291.1,WP_268952291.1,Planktothrix agardhii,1160
+       2,WP_252100465.1,WP_252100465.1,Microcystis aeruginosa,1126
+1,WP_252100465.1,CCI02396.1,Microcystis aeruginosa,1160281
+       1,AGD94572.1,AGD94572.1,Phormidium sp.,356130
+       3,WP_252100466.1,WP_252100466.1,Microcystis aeruginosa,1126
+2,WP_252100466.1,CCI02395.1,Microcystis aeruginosa,1160281
+1,WP_252100466.1,WP_288116327.1,Microcystis sp.,3030677
+       1,MCF3598634.1,MCF3598634.1,Planktothrix agardhii,2884164
+       1,WP_143855513.1,WP_143855513.1,Nostoc sp.,2014531
+       3,WP_079681561.1,WP_079681561.1,Planktothrix sp.,1729650
+2,WP_079681561.1,HAO12305.1,Planktothrix sp.,2055758
+1,WP_079681561.1,SKB15658.1,Planktothrix sp.,1729650
+       1,WP_210422217.1,WP_210422217.1,Dolichospermum sp.,1914871
+       1,AGD94571.1,AGD94571.1,Phormidium sp.,1249802
+       1,AGD94570.1,AGD94570.1,Nostoc sp.,1249801
+       1,WP_230968118.1,WP_230968118.1,Nostoc sp.,2650611
+       1,CAD5966203.1,CAD5966203.1,Planktothrix rubescens,59512
+       2,WP_026796478.1,WP_026796478.1,Planktothrix cyanobacteria,54304
+1,WP_026796478.1,WP_141295478.1,Planktothrix agardhii,1160
+       1,WP_106301736.1,WP_106301736.1,Chamaesiphon polymorphus,2107691
+       1,WP_198138986.1,WP_198138986.1,Crocosphaera watsonii,263511
+       1,MBE8964962.1,MBE8964962.1,Nostocales cyanobacterium,2777975
+       1,WP_017748552.1,WP_017748552.1,Scytonema hofmannii,34078
+       2,WP_161975702.1,WP_161975702.1,Tengunoibacter tsumagoiensis,2014871
+1,WP_161975702.1,GCE14871.1,Tengunoibacter tsumagoiensis,2014871
+       1,MCE2674783.1,MCE2674783.1,Microcystis sp.,2904985
+       1,WP_015666044.1,WP_015666044.1,Bradyrhizobium oligotrophicum,44255
+       1,WP_257168770.1,WP_257168770.1,Bradyrhizobium sp.,2962606
+       1,MBW8873678.1,MBW8873678.1,Acidobacteria bacterium,1978231
+       1,MBA3568938.1,MBA3568938.1,Pyrinomonadaceae bacterium,2283092
+       2,WP_192881645.1,WP_192881645.1,Nostoc sp.,1869241
+1,WP_192881645.1,ATP76243.1,Nostoc sp.,1869241
+       1,AFW99796.1,AFW99796.1,Nostoc sp.,213632
+       1,AEO14743.1,AEO14743.1,Nostoc sp.,707671
+       4,WP_006892889.1,WP_006892889.1,Methylobacter tundripaludum,173365
+3,WP_006892889.1,MDI1278799.1,Methylobacter sp.,2051955
+2,WP_006892889.1,WP_104429829.1,Methylobacter tundripaludum,173365
+1,WP_006892889.1,WP_300490293.1,Methylobacter sp.,2051955
+       1,WP_190835606.1,WP_190835606.1,Iningainema tapete,2806730
+       20,WP_006195952.1,WP_006195952.1,Nodularia spumigena,70799
+19,WP_006195952.1,AHJ30514.1,Nodularia spumigena,313624
+18,WP_006195952.1,AVZ31630.1,Nodularia spumigena,1914872
+17,WP_006195952.1,KZL49784.1,Nodularia spumigena,1819295
+16,WP_006195952.1,MDB9305422.1,Nodularia spumigena,3021780
+15,WP_006195952.1,MDB9320911.1,Nodularia spumigena,3021779
+14,WP_006195952.1,MDB9349055.1,Nodularia spumigena,3021769
+13,WP_006195952.1,MDB9362252.1,Nodularia spumigena,3021770
+12,WP_006195952.1,WP_082209974.1,Nodularia spumigena,70799
+11,WP_006195952.1,WP_082830142.1,Nodularia spumigena,70799
+10,WP_006195952.1,WP_271922862.1,Cyanophyceae cyanobacteria,3028117
+9,WP_006195952.1,WP_271944547.1,Nodularia spumigena,70799
+8,WP_006195952.1,WP_272012003.1,Nodularia spumigena,70799
+7,WP_006195952.1,WP_272052024.1,Nodularia spumigena,70799
+6,WP_006195952.1,WP_272052318.1,Nodularia spumigena,70799
+5,WP_006195952.1,WP_272056178.1,Nodularia spumigena,70799
+4,WP_006195952.1,WP_272069086.1,Nodularia spumigena,70799
+3,WP_006195952.1,WP_272069434.1,Nodularia spumigena,70799
+2,WP_006195952.1,WP_272074741.1,Nodularia spumigena,70799
+1,WP_006195952.1,WP_276527422.1,Nodularia spumigena,70799
+       2,WP_288095594.1,WP_288095594.1,unclassified Microcystis,2643300
+1,WP_288095594.1,MDJ0565935.1,Microcystis sp.,3030675
+       1,MBM4254543.1,MBM4254543.1,Deltaproteobacteria bacterium,2026735
+       1,WP_192376277.1,WP_192376277.1,Methylomonas albis,1854563
+       3,WP_096679488.1,WP_096679488.1,Fischerella sp.,2005456
+2,WP_096679488.1,BAZ70677.1,Fischerella sp.,2005456
+1,WP_096679488.1,MBW4434414.1,Pelatocladus maniniholoensi...,1117104
+       1,AHB82071.1,AHB82071.1,Jahnella sp.,1434086
+       1,WP_132532791.1,WP_132532791.1,Pedobacter psychrotolerans,1843235
+       1,NEP57131.1,NEP57131.1,Symploca sp.,2607798
+       2,WP_013940696.1,WP_013940696.1,Corallococcus macrosporus,35
+1,WP_013940696.1,WP_095959260.1,Corallococcus macrosporus,35
+       1,WP_155744734.1,WP_155744734.1,Scytonema sp.,2304196
+       1,AYN44356.1,AYN44356.1,Cloning vector,2482705
+       1,WP_284666901.1,WP_284666901.1,Myxococcus sp.,2831967
+       1,AXN93627.1,AXN93627.1,Symplocastrum muelleri,2303159
+       1,NVJ06717.1,NVJ06717.1,Myxococcus sp.,2745201
+       1,ARV58848.1,ARV58848.1,Nostocales cyanobacterium,1940762
+       1,WP_015201408.1,WP_015201408.1,Crinalium epipsammum,241425
+       3,WP_002636535.1,WP_002636535.1,Myxococcus hansupus,1297742
+2,WP_002636535.1,APZ78728.1,Myxococcus sp.,1929279
+1,WP_002636535.1,WP_191262649.1,unclassified Comamonas,2638500
+       1,WP_129577260.1,WP_129577260.1,Sorangium bacteria,39643
+       14,WP_011554085.1,WP_011554085.1,Myxococcus bacteria,32
+13,WP_011554085.1,WP_090490533.1,Myxococcus virescens,83456
+12,WP_011554085.1,WP_140792406.1,Myxococcus xanthus,34
+11,WP_011554085.1,WP_140798659.1,Myxococcus xanthus,34
+10,WP_011554085.1,WP_140855320.1,Myxococcus xanthus,34
+9,WP_011554085.1,WP_140863379.1,Myxococcus xanthus,34
+8,WP_011554085.1,WP_140875697.1,Myxococcus xanthus,34
+7,WP_011554085.1,WP_141255125.1,Myxococcus bacteria,32
+6,WP_011554085.1,WP_171443516.1,Myxococcus xanthus,34
+5,WP_011554085.1,WP_176416178.1,Myxococcus sp.,2745138
+4,WP_011554085.1,WP_176422916.1,Myxococcus sp.,2745137
+3,WP_011554085.1,WP_201420812.1,Myxococcus xanthus,34
+2,WP_011554085.1,WP_268781560.1,Myxococcus sp.,2996785
+1,WP_011554085.1,WP_284667164.1,Myxococcus sp.,2831967
+       1,WP_163973255.1,WP_163973255.1,Myxococcus sp.,2651864
+       1,WP_141253775.1,WP_141253775.1,Myxococcus bacteria,32
+       1,WP_096563845.1,WP_096563845.1,Scytonema sp.,2005464
+       1,WP_013940402.1,WP_013940402.1,Corallococcus macrosporus,35
+       1,WP_016951656.1,WP_016951656.1,Anabaena sp.,163908
+       1,WP_201426006.1,WP_201426006.1,Myxococcus xanthus,34
+       1,WP_292905695.1,WP_292905695.1,Niveispirillum sp.,1917217
+       1,WP_140862891.1,WP_140862891.1,Myxococcus xanthus,34
+       1,WP_171441534.1,WP_171441534.1,Myxococcus xanthus,34
+       1,MBR8835868.1,MBR8835868.1,Stigonema ocellatum,221294
+       1,WP_011553792.1,WP_011553792.1,Myxococcus bacteria,32
+       1,WP_268784830.1,WP_268784830.1,Myxococcus sp.,2996785
+       1,WP_190693927.1,WP_190693927.1,Nostoc sp.,2692834
+       1,MBM3807741.1,MBM3807741.1,Acidimicrobiia bacterium,2080302
+       2,WP_141618077.1,WP_141618077.1,Myxococcus sp.,2562793
+1,WP_141618077.1,WP_228557850.1,Myxococcus sp.,2562792
+       1,WP_083725487.1,WP_083725487.1,[Flexibacter] sp.,1936242
+       1,WP_094345033.1,WP_094345033.1,Nostoc sp.,2014531
+       1,WP_140875486.1,WP_140875486.1,Myxococcus xanthus,34
+       1,MBD2360529.1,MBD2360529.1,Anabaena minutissima,2692882
+       1,WP_201390863.1,WP_201390863.1,Ktedonobacter sp.,2778367
+       1,NET58375.1,NET58375.1,Symploca sp.,2607809
+       1,WP_155743931.1,WP_155743931.1,Scytonema sp.,2304196
+       1,BDA68754.1,BDA68754.1,Calothrix sp.,2853227
+       1,WP_072160736.1,WP_072160736.1,Planktothricoides sp.,1705388
+       1,WP_293056136.1,WP_293056136.1,unclassified Moorena,2683338
+       2,WP_049872311.1,WP_049872311.1,Myxococcus hansupus,1297742
+1,WP_049872311.1,AKQ66241.1,Myxococcus hansupus,1297742
+       1,MDF5721980.1,MDF5721980.1,Rhizonema sp.,3019274
+       1,WP_015202607.1,WP_015202607.1,Crinalium epipsammum,241425
+       1,WP_293113446.1,WP_293113446.1,Moorena sp.,2607821
+       1,WP_170119278.1,WP_170119278.1,Tumebacillus permanentifrig...,378543
+       1,NER23976.1,NER23976.1,Symploca sp.,2607769
+       1,NER33981.1,NER33981.1,Oscillatoria sp.,2607767
+       1,WP_210987898.1,WP_210987898.1,Streptomyces sp.,2824887
+       1,MDJ0836656.1,MDJ0836656.1,Acidobacteria bacterium,1978231
+       2,WP_283809171.1,WP_283809171.1,Tumebacillus amylolyticus,2801339
+1,WP_283809171.1,MBL0388703.1,Tumebacillus amylolyticus,2801339
+       1,NEP10410.1,NEP10410.1,Symploca sp.,2607783
+       1,APZ78833.1,APZ78833.1,Stigmatella aurantiaca,675526
+       2,AIW82277.1,AIW82277.1,Cylindrospermum alatosporum...,1382618
+1,AIW82277.1,AXN93575.1,Cylindrospermum moravicum,1382638
+       1,EKV03256.1,EKV03256.1,Leptolyngbya sp.,102129
+       1,WP_283751930.1,WP_283751930.1,Roseofilum sp.,3022444
+       1,TRU88949.1,TRU88949.1,Microcystis novacekii,2486265
+       1,MDG2156241.1,MDG2156241.1,Gammaproteobacteria bacterium,1913989
+       1,UZC80146.1,UZC80146.1,Nodularia harveyana,2974287
+       1,WP_197352592.1,WP_197352592.1,Streptomyces bathyalis,2710756
+       1,MBE7383125.1,MBE7383125.1,Leptolyngbya sp.,2607768
+       1,BCL83211.1,BCL83211.1,Ktedonobacteria bacterium,2717365
+       1,HIK04822.1,HIK04822.1,Trichormus sp.,2747804
+       1,KOR36859.1,KOR36859.1,Planktothricoides sp.,1705388
+       2,NER23972.1,NER23972.1,Symploca sp.,2607769
+1,NER23972.1,NER95164.1,Symploca sp.,2607763
+       1,WP_081431391.1,WP_081431391.1,Moorena bouillonii,207920
+       1,WP_139020606.1,WP_139020606.1,Bradyrhizobium sp.,115808
+       1,WP_126687009.1,WP_126687009.1,Dyella choica,1927959
+       2,WP_297823662.1,WP_297823662.1,Segetibacter sp.,2231182
+1,WP_297823662.1,MCW3082603.1,Segetibacter sp.,2231182
+       1,WP_271941571.1,WP_271941571.1,Roseofilum reptotaenium,1233427
+       1,WP_283756304.1,WP_283756304.1,Roseofilum sp.,3022442
+       2,AXN93592.1,AXN93592.1,Anabaena minutissima,2303153
+1,AXN93592.1,AXN93605.1,Anabaena sp.,2303154
+       1,MBP0007231.1,MBP0007231.1,Roseofilum sp.,2821501
+       1,MCI0392289.1,MCI0392289.1,Acidobacteria bacterium,1978231
+       1,WP_132485675.1,WP_132485675.1,Saccharopolyspora elongata,2530387
+       1,MBW8874484.1,MBW8874484.1,Acidobacteria bacterium,1978231
+       3,MBP0037681.1,MBP0037681.1,Roseofilum sp.,2821497
+2,MBP0037681.1,MBP0015755.1,Roseofilum sp.,2821499
+1,MBP0037681.1,MBP0040989.1,Roseofilum sp.,2821496
+       1,WP_283767394.1,WP_283767394.1,Roseofilum sp.,3022440
+       1,WP_083373541.1,WP_083373541.1,Moorena producens,1155739
+       1,NEQ80495.1,NEQ80495.1,Moorena sp.,2607825
+       4,WP_168652013.1,WP_168652013.1,Dolichospermum sp.,2590011
+3,WP_168652013.1,MBO1051113.1,Dolichospermum sp.,2717879
+2,WP_168652013.1,WP_015080907.1,Anabaena sp.,46234
+1,WP_168652013.1,WP_168653844.1,unclassified Dolichospermum,2622029
+       1,QEO74274.1,QEO74274.1,uncultured bacterium,77133
+       1,WP_136970797.1,WP_136970797.1,Polyangium sorediatum,889274
+       1,MBD3307338.1,MBD3307338.1,candidate division,2044937
+       1,WP_287266056.1,WP_287266056.1,Moorena sp.,2607841
+       2,WP_212004917.1,WP_212004917.1,Chitinophaga sp.,2952571
+1,WP_212004917.1,WP_113618885.1,Chitinophaga flava,2259036
+       1,MCP5425314.1,MCP5425314.1,Gammaproteobacteria bacterium,1913989
+       1,WP_242936723.1,WP_242936723.1,Zhouia spongiae,2202721
+       1,WP_263745622.1,WP_263745622.1,Plectonema radiosum,945768
+       5,WP_256571598.1,WP_256571598.1,Myxococcus guangdongensis,2906760
+4,WP_256571598.1,MCK8501651.1,Myxococcus fulvus,33
+3,WP_256571598.1,MCP3059793.1,Myxococcus guangdongensis,2906760
+2,WP_256571598.1,WP_267700559.1,Myxococcus sp.,2996786
+1,WP_256571598.1,WP_274622527.1,Myxococcus fulvus,33
+       2,MBD2208735.1,MBD2208735.1,Nostoc linckia,2692905
+1,MBD2208735.1,MBD2339102.1,Calothrix sp.,2692779
+       2,WP_078671709.1,WP_078671709.1,Chitinophaga eiseniae,634771
+1,WP_078671709.1,WP_295864096.1,uncultured Chitinophaga,339340
+       1,WP_193982868.1,WP_193982868.1,Phormidium sp.,2777964
+       1,WP_292768454.1,WP_292768454.1,Nostoc sp.,2815407
+       1,WP_162005468.1,WP_162005468.1,Dictyobacter vulcani,2607529
+       2,AXN93581.1,AXN93581.1,Cylindrospermum moravicum,1382638
+1,AXN93581.1,AXN93590.1,Cylindrospermum alatosporum...,1382619
+       1,PIE25755.1,PIE25755.1,Micrococcales bacterium,2026762
+       3,WP_168873649.1,WP_168873649.1,Chitinophaga varians,2202339
+2,WP_168873649.1,WP_169226962.1,Chitinophaga fulva,2728842
+1,WP_168873649.1,WP_188094673.1,Chitinophaga varians,2202339
+       1,WP_220609288.1,WP_220609288.1,Sphaerospermopsis torques-r...,984207
+       2,MDM3858334.1,MDM3858334.1,Aphanizomenon gracile,3025481
+1,MDM3858334.1,MDM3847813.1,Aphanizomenon gracile,948687
+       1,AIW82284.1,AIW82284.1,Cylindrospermum alatosporum...,1382618
+       1,MCB0192013.1,MCB0192013.1,Anaerolineae bacterium,2052143
+       1,VFJ65653.1,VFJ65653.1,Candidatus Kentron,2126338
+       1,WP_293116831.1,WP_293116831.1,Okeania sp.,2607772
+       2,WP_241758318.1,WP_241758318.1,Myxococcus sp.,2813577
+1,WP_241758318.1,QSQ17129.1,Myxococcus sp.,2813577
+       2,WP_293062497.1,WP_293062497.1,Okeania sp.,2607784
+1,WP_293062497.1,WBQ34531.1,Okeania sp.,3019847
+       1,MCP4261672.1,MCP4261672.1,Planctomycetota bacterium,2026780
+       1,AKJ02445.1,AKJ02445.1,Archangium gephyra,48
+       1,WP_132172381.1,WP_132172381.1,Kribbella antibiotica,190195
+       1,WP_192556848.1,WP_192556848.1,Dyella acidiphila,2775866
+       1,WP_096562233.1,WP_096562233.1,Scytonema sp.,2005464
+       1,MCP4696225.1,MCP4696225.1,Gammaproteobacteria bacterium,1913989
+       1,HBI84026.1,HBI84026.1,Alcaligenaceae bacterium,2021368
+       1,WP_167844812.1,WP_167844812.1,Tolypothrix bouteillei,1246981
+       1,WP_096685047.1,WP_096685047.1,unclassified Calothrix,2619626
+       1,WP_163654434.1,WP_163654434.1,Sheuella amnicola,2707330
+       1,MBU7585508.1,MBU7585508.1,Nostoc sp.,442893
+       1,WP_235018785.1,WP_235018785.1,Tolypothrix sp.,2005459
+       1,WP_188795900.1,WP_188795900.1,Dyella nitratireducens,1849580
+       1,WP_012409515.1,WP_012409515.1,Nostoc punctiforme,272131
+       1,WP_136921218.1,WP_136921218.1,Polyangium aurulentum,2567896
+       1,MBW4507550.1,MBW4507550.1,Scytonematopsis contorta,1049028
+       1,WP_013435805.1,WP_013435805.1,Mycetohabitans rhizoxinica,412963
+       2,WP_287754803.1,WP_287754803.1,Microcystis sp.,2771103
+1,WP_287754803.1,MDJ0558785.1,Microcystis sp.,3030680
+       1,MCP4661953.1,MCP4661953.1,bacterium bacteria,1869227
+       4,WP_015188201.1,WP_015188201.1,Gloeocapsa sp.,1173026
+3,WP_015188201.1,WP_015155707.1,Chroococcidiopsis thermalis,54299
+2,WP_015188201.1,WP_106165786.1,Chroococcidiopsis cubana,171392
+1,WP_015188201.1,WP_250012827.1,Chroococcidiopsis sp.,2653189
+       5,WP_190551970.1,WP_190551970.1,Calothrix cyanobacteria,1186
+4,WP_190551970.1,BAZ03061.1,Tolypothrix tenuis,231146
+3,WP_190551970.1,WP_096584969.1,Tolypothrix tenuis,457083
+2,WP_190551970.1,WP_096647127.1,Calothrix brevissima,938406
+1,WP_190551970.1,WP_190629946.1,unclassified Calothrix,2619626
+       1,WP_273770660.1,WP_273770660.1,Nostoc sp.,3025190
+       1,WP_167844606.1,WP_167844606.1,Tolypothrix bouteillei,1246981
+       1,WP_138505990.1,WP_138505990.1,Nostoc sp.,2575443
+       3,WP_201280317.1,WP_201280317.1,Hassallia byssoidea,482630
+2,WP_201280317.1,MBW4566500.1,Tolypothrix carrinoi,1874569
+1,WP_201280317.1,NEU72172.1,Hassallia byssoidea,1304833
+       1,MBW4507961.1,MBW4507961.1,Scytonematopsis contorta,1049028
+       1,WP_070392795.1,WP_070392795.1,Moorena producens,1155739
+       1,WP_262706337.1,WP_262706337.1,Streptomyces sp.,2974589
+       1,WP_158631361.1,WP_158631361.1,Chitinophaga solisilvae,1233460
+       1,WP_096679334.1,WP_096679334.1,Fischerella sp.,2005456
+       1,WP_292842773.1,WP_292842773.1,Nostoc sp.,2815392
+       1,WP_160717760.1,WP_160717760.1,Chitinophaga solisilvae,1233460
+       1,WP_083617271.1,WP_083617271.1,Planktothrix serta,1678310
+       1,WP_243902305.1,WP_243902305.1,Aetokthonos hydrillicola,1550245
+       5,WP_052347419.1,WP_052347419.1,Planktothrix prolifica,54307
+4,WP_052347419.1,ACG63858.1,Planktothrix rubescens,59512
+3,WP_052347419.1,WP_052338800.1,Planktothrix prolifica,54307
+2,WP_052347419.1,WP_254034952.1,Planktothrix agardhii,1160
+1,WP_052347419.1,WP_278616198.1,Planktothrix agardhii,1160
+       10,WP_071242066.1,WP_071242066.1,Cylindrospermopsis raciborskii,77022
+9,WP_071242066.1,BAZ90456.1,Raphidiopsis curvata,1973482
+8,WP_071242066.1,WP_057178252.1,Cylindrospermopsis sp.,1747196
+7,WP_071242066.1,WP_102943207.1,Cylindrospermopsis raciborskii,77022
+6,WP_071242066.1,WP_102947372.1,Cylindrospermopsis raciborskii,77022
+5,WP_071242066.1,WP_115538280.1,Cylindrospermopsis raciborskii,77022
+4,WP_071242066.1,WP_141303791.1,Cylindrospermopsis raciborskii,77022
+3,WP_071242066.1,WP_187706030.1,Cylindrospermopsis curvispora,747548
+2,WP_071242066.1,WP_236308092.1,Cylindrospermopsis raciborskii,77022
+1,WP_071242066.1,WP_258005901.1,Cylindrospermopsis raciborskii,77022
+       2,WP_237577728.1,WP_237577728.1,Mycetohabitans sp.,2841843
+1,WP_237577728.1,CBW77041.1,Mycetohabitans rhizoxinica,882378
+       2,WP_094343176.1,WP_094343176.1,Nostoc sp.,2014531
+1,WP_094343176.1,WP_292846451.1,Nostoc sp.,2815392
+       1,UVH70867.1,UVH70867.1,Mycetohabitans rhizoxinica,412963
+       3,WP_256891097.1,WP_256891097.1,Cylindrospermopsis raciborskii,77022
+2,WP_256891097.1,MCZ2202043.1,Cylindrospermopsis racibors...,2969974
+1,WP_256891097.1,OSO88008.1,Cylindrospermopsis racibors...,1170769
+       1,WP_094329813.1,WP_094329813.1,Nostoc sp.,2014530
+       1,WP_206727746.1,WP_206727746.1,Pyxidicoccus sp.,2813578
+       1,WP_223278137.1,WP_223278137.1,Nostoc sp.,2014531
+       1,WP_193200009.1,WP_193200009.1,Nostoc sp.,2721166
+       1,WP_273995168.1,WP_273995168.1,Burkholderia sp.,1494466
+       3,WP_233203423.1,WP_233203423.1,Mycetohabitans endofungorum,417203
+2,WP_233203423.1,PPB81013.1,Mycetohabitans endofungorum,417203
+1,WP_233203423.1,WP_255779293.1,Mycetohabitans sp.,2841846
+       1,WP_301261036.1,WP_301261036.1,Eleftheria terrae,1597781
+       1,WP_261224252.1,WP_261224252.1,Ancylothrix sp.,2953691
+       1,WP_215543535.1,WP_215543535.1,Amycolatopsis sp.,2745196
+       1,WP_301260687.1,WP_301260687.1,Eleftheria terrae,1597781
+       1,VFJ46172.1,VFJ46172.1,Candidatus Kentron,2126562
+       1,AXN93623.1,AXN93623.1,Symplocastrum muelleri,2303159
+       1,MBV9792209.1,MBV9792209.1,Chloroflexi bacterium,2026724
+       1,MBW4570975.1,MBW4570975.1,Tolypothrix carrinoi,1874569
+       1,MCF8172104.1,MCF8172104.1,Candidatus Methylopumilus,2518607
+       1,MBT3877879.1,MBT3877879.1,Candidatus Scalindua,2268189
+       1,MCI0724046.1,MCI0724046.1,Acidobacteria bacterium,1978231
+       1,WP_237070704.1,WP_237070704.1,Mycetohabitans sp.,2841274
+       2,WP_287242703.1,WP_287242703.1,unclassified Okeania,2634635
+1,WP_287242703.1,WP_287275966.1,unclassified Okeania,2634635
+       1,MCB0167234.1,MCB0167234.1,Anaerolineae bacterium,2052143
+       1,AXN93624.1,AXN93624.1,Symplocastrum muelleri,2303159
+       1,WP_096647410.1,WP_096647410.1,Calothrix brevissima,938406
+       1,MCP4660532.1,MCP4660532.1,bacterium bacteria,1869227
+       1,WCB70647.1,WCB70647.1,Corallococcus coralloides,184914
+       1,WP_096604106.1,WP_096604106.1,Calothrix sp.,1954172
+       1,MDF5724715.1,MDF5724715.1,Rhizonema sp.,3019274
+       1,MDM8560647.1,MDM8560647.1,Thiotrichales bacterium,3055593
+       1,WP_272117152.1,WP_272117152.1,Spirulina major,270636
+       1,WP_276525461.1,WP_276525461.1,Streptomyces rapamycinicus,1226757
+       3,WP_255653385.1,WP_255653385.1,Myxococcus sp.,2874602
+2,WP_255653385.1,MBZ4411067.1,Myxococcus sp.,2874602
+1,WP_255653385.1,WP_194869084.1,Myxococcus sp.,2562794
+       1,WP_116176148.1,WP_116176148.1,Kutzneria buriramensis,1045776
+       1,WP_276063796.1,WP_276063796.1,Streptomyces rapamycinicus,1226757
+       1,WP_029631944.1,WP_029631944.1,Nostocales cyanobacteria,1161
+       1,AGP53565.1,AGP53565.1,Streptomyces rapamycinicus,1343740
+       1,WP_267700953.1,WP_267700953.1,Myxococcus sp.,2996786
+       1,WP_223783313.1,WP_223783313.1,Myxococcus sp.,2874600
+       1,WP_153824568.1,WP_153824568.1,Polyangium spumosum,889282
+       1,WP_083559926.1,WP_083559926.1,Myxococcus fulvus,33
+       1,MCM0593872.1,MCM0593872.1,Gloeotrichia echinulata,2824560
+       1,WP_212004531.1,WP_212004531.1,Chitinophaga sp.,2952571
+       1,WP_206727735.1,WP_206727735.1,Pyxidicoccus sp.,2813578
+       1,RPH91720.1,RPH91720.1,Chroococcales cyanobacteriu...,2485785
+       1,BDT34676.1,BDT34676.1,Myxococcus sp.,2982796
+       1,MBW4497711.1,MBW4497711.1,Oscillatoria princeps,2839661
+       3,WP_293062493.1,WP_293062493.1,Okeania sp.,2607784
+2,WP_293062493.1,WBQ34530.1,Okeania sp.,3019847
+1,WP_293062493.1,WP_293116829.1,Okeania sp.,2607772
+       5,MCP4089809.1,MCP4089809.1,Gammaproteobacteria bacterium,1913989
+4,MCP4089809.1,MCP3999463.1,Gammaproteobacteria bacterium,1913989
+3,MCP4089809.1,MCP4278174.1,Gammaproteobacteria bacterium,1913989
+2,MCP4089809.1,MCP4831893.1,Gammaproteobacteria bacterium,1913989
+1,MCP4089809.1,MCP4927635.1,Gammaproteobacteria bacterium,1913989
+       2,WP_076786548.1,WP_076786548.1,Burkholderiaceae b-proteobacteria,119060
+1,WP_076786548.1,WP_076795737.1,Burkholderiaceae b-proteobacteria,119060
+       2,NEQ67784.1,NEQ67784.1,Symploca sp.,2607789
+1,NEQ67784.1,NER46484.1,Symploca sp.,2607766
+       1,MCB9251759.1,MCB9251759.1,Flavobacteriales bacterium,2021391
+       2,WP_083706138.1,WP_083706138.1,Burkholderia sp.,1761774
+1,WP_083706138.1,WP_083703618.1,Burkholderia sp.,1761775
+       1,WP_011318426.1,WP_011318426.1,Trichormus variabilis,264691
+       1,WP_206717291.1,WP_206717291.1,Myxococcus sp.,2813577
+       1,MDE3155807.1,MDE3155807.1,Acidobacteria bacterium,1978231
+       1,WP_161975703.1,WP_161975703.1,Tengunoibacter tsumagoiensis,2014871
+       1,WP_217079153.1,WP_217079153.1,Citreicoccus inhibens,2849499
+       1,MDF5719565.1,MDF5719565.1,Rhizonema sp.,3019274
+       1,WP_174464524.1,WP_174464524.1,Myxococcus sp.,2741737
+       1,WP_141641092.1,WP_141641092.1,Myxococcus llanfairpwllgwyn...,2590453
+       1,MTI47957.1,MTI47957.1,Bacillota bacterium,1879010
+       1,WP_015181760.1,WP_015181760.1,Allocoleopsis franciscana,2886352
+       2,WP_274622091.1,WP_274622091.1,Myxococcus fulvus,33
+1,WP_274622091.1,MCK8498198.1,Myxococcus fulvus,33
+       1,WP_293076015.1,WP_293076015.1,Okeania sp.,2607811
+       1,WP_167541145.1,WP_167541145.1,Janthinobacterium agaricida...,55508
+       1,MBW4647071.1,MBW4647071.1,Goleter apudmare,1382955
+       1,WP_165975404.1,WP_165975404.1,Actinomadura rubrisoli,2530368
+       1,WP_237576396.1,WP_237576396.1,Mycetohabitans sp.,2841845
+       1,WCB70646.1,WCB70646.1,Corallococcus coralloides,184914
+       1,MBW4678187.1,MBW4678187.1,Desmonostoc geniculatum,1874567
+       3,WP_006276685.1,WP_006276685.1,Cylindrospermopsis raciborskii,77022
+2,WP_006276685.1,WP_065180150.1,Cylindrospermopsis raciborskii,77022
+1,WP_006276685.1,WP_102938883.1,Cylindrospermopsis raciborskii,77022
+       1,KAB8314800.1,KAB8314800.1,Tolypothrix campylonemoides...,1245935
+       2,WP_127086739.1,WP_127086739.1,Dulcicalothrix desertica,32056
+1,WP_127086739.1,WP_145837642.1,Dulcicalothrix desertica,32056
+       1,MDJ0732638.1,MDJ0732638.1,Nostocaceae cyanobacterium,2723028
+       1,WP_169342868.1,WP_169342868.1,Pyxidicoccus fallax,394095
+       1,WP_171976792.1,WP_171976792.1,Brasilonema sennae,1397703
+       1,WP_023069605.1,WP_023069605.1,Lyngbya aestuarii,118322
+       1,WP_254040359.1,WP_254040359.1,Myxococcus guangdongensis,2906760
+       1,VFJ42352.1,VFJ42352.1,Candidatus Kentron,2126338
+       1,MCB0094210.1,MCB0094210.1,Caldilineaceae bacterium,2614250
+       1,MBA2681037.1,MBA2681037.1,Ktedonobacteraceae bacterium,2740538
+       1,NQY62838.1,NQY62838.1,Alteromonadaceae bacterium,1916082
+       1,WP_015349700.1,WP_015349700.1,Myxococcus stipitatus,83455
+       1,CBW77042.1,CBW77042.1,Mycetohabitans rhizoxinica,882378
+       1,WP_138506150.1,WP_138506150.1,Nostoc sp.,2575443
+       1,WP_293097453.1,WP_293097453.1,Moorena sp.,2607817
+       1,MCM0593871.1,MCM0593871.1,Gloeotrichia echinulata,2824560
+       1,NOK63913.1,NOK63913.1,Chloroflexi bacterium,2686367
+       1,WP_292701069.1,WP_292701069.1,unclassified Nostoc,2593658
+       1,WP_072620080.1,WP_072620080.1,Spirulina major,270636
+       1,WP_193200774.1,WP_193200774.1,Nostoc sp.,2721166
+       1,RJS17597.1,RJS17597.1,Corallococcus sp.,2249217
+       1,WP_235090588.1,WP_235090588.1,Mycetohabitans sp.,2841841
+       1,UBH04475.1,UBH04475.1,Desmonostoc muscorum,2756293
+       1,MCM0589640.1,MCM0589640.1,Gloeotrichia echinulata,2824560
+       1,WP_263744017.1,WP_263744017.1,Plectonema radiosum,945768
+       3,KAG0297268.1,KAG0297268.1,Linnemannia gamsii,64522
+2,KAG0297268.1,KAF9396940.1,Podila verticillata,78898
+1,KAG0297268.1,KAG0323331.1,Linnemannia gamsii,64522
+       2,WP_161974662.1,WP_161974662.1,Albitalea terrae,2496871
+1,WP_161974662.1,RQP22623.1,Albitalea terrae,2496871
+       1,AYN44362.1,AYN44362.1,Cloning vector,2482706
+       1,WP_166659121.1,WP_166659121.1,Labedaea rhizosphaerae,598644
+       1,MCG8620153.1,MCG8620153.1,Desulfobacterales bacterium,2044940
+       2,BAZ33598.1,BAZ33598.1,Cylindrospermum sp.,2005457
+1,BAZ33598.1,MBO1049495.1,Dolichospermum sp.,2717869
+       1,WP_104982222.1,WP_104982222.1,Sorangium cellulosum,56
+       1,MBT5925910.1,MBT5925910.1,Verrucomicrobia bacterium,2026799
+       1,WP_225860082.1,WP_225860082.1,Chitinophaga sp.,2849666
+       1,WP_267078800.1,WP_267078800.1,Streptomyces sp.,2975635
+       1,WP_076788023.1,WP_076788023.1,Burkholderia sp.,1761774
+       1,WP_113619295.1,WP_113619295.1,Chitinophaga flava,2259036
+       2,MBO1049494.1,MBO1049494.1,Dolichospermum sp.,2717869
+1,MBO1049494.1,BAZ33597.1,Cylindrospermum sp.,2005457
+       1,WP_241265818.1,WP_241265818.1,Streptomyces boncukensis,2711219
+       1,WP_100897691.1,WP_100897691.1,Nostoc flagelliforme,1306274
+       1,PYQ64438.1,PYQ64438.1,Acidobacteria bacterium,1978231
+       1,NND55034.1,NND55034.1,Gammaproteobacteria bacterium,1913989
+       1,OJW54633.1,OJW54633.1,Alphaproteobacteria bacteri...,1895706
+       1,WP_096654063.1,WP_096654063.1,Calothrix parasitica,1973486
+       2,WP_012409516.1,WP_012409516.1,Nostoc punctiforme,272131
+1,WP_012409516.1,WP_196516828.1,Nostoc sp.,2650611
+       1,MCC5648475.1,MCC5648475.1,Nostoc sp.,2780408
+       1,QEO74374.1,QEO74374.1,uncultured bacterium,77133
+       1,HIK04810.1,HIK04810.1,Trichormus sp.,2747804
+       1,UBH04463.1,UBH04463.1,Desmonostoc muscorum,2756293
+       1,WP_095981258.1,WP_095981258.1,Melittangium boletus,83453
+       2,WP_168204328.1,WP_168204328.1,Aliikangiella coralliicola,2592383
+1,WP_168204328.1,TQV81103.1,Aliikangiella coralliicola,2592383
+       1,WP_161975672.1,WP_161975672.1,Tengunoibacter tsumagoiensis,2014871
+       1,MCY7283313.1,MCY7283313.1,Cyanobacteria bacterium,2880266
+       2,MBD2208747.1,MBD2208747.1,Nostoc linckia,2692905
+1,MBD2208747.1,MBD2339090.1,Calothrix sp.,2692779
+       1,WP_190911121.1,WP_190911121.1,Nostoc sp.,2692843
+       1,AXN93602.1,AXN93602.1,Anabaena minutissima,2303153
+       1,MCG8617543.1,MCG8617543.1,Desulfobacterales bacterium,2044940
+       1,WP_190936646.1,WP_190936646.1,Nostoc sp.,2692835
+       1,WP_051672890.1,WP_051672890.1,Caballeronia glathei,60547
+       1,MUG94288.1,MUG94288.1,Scytonema sp.,2304196
+       1,WP_096647408.1,WP_096647408.1,Calothrix brevissima,938406
+       3,WP_121825642.1,WP_121825642.1,Streptomyces rapamycinicus,1226757
+2,WP_121825642.1,WP_254807100.1,Streptomyces rapamycinicus,1226757
+1,WP_121825642.1,WP_262706358.1,Streptomyces sp.,2974589
+       1,WP_169218415.1,WP_169218415.1,Brasilonema sp.,2234130
+       1,AIW82283.1,AIW82283.1,Cylindrospermum alatosporum...,1382618
+       1,WP_166481987.1,WP_166481987.1,Scytonema sp.,2304196
+       1,WP_193883182.1,WP_193883182.1,Fortiea sp.,1828611
+       1,UZC80156.1,UZC80156.1,Nodularia harveyana,2974287
+       1,MBD2521399.1,MBD2521399.1,Nostoc sp.,2692835
+       1,MCG6135476.1,MCG6135476.1,Cyanocohniella sp.,2917192
+       1,WP_106456857.1,WP_106456857.1,Aphanothece hegewaldii,1521625
+       1,WP_089130965.1,WP_089130965.1,Tolypothrix sp.,2005459
+       2,WP_211284344.1,WP_211284344.1,Xenorhabdus stockiae,351614
+1,WP_211284344.1,PHM60827.1,Xenorhabdus stockiae,351614
+       1,AXN93615.1,AXN93615.1,Anabaena sp.,2303154
+       1,AXN93614.1,AXN93614.1,Anabaena sp.,2303154
+       2,WP_157722062.1,WP_157722062.1,Tumebacillus avium,1903704
+1,WP_157722062.1,ARU62850.1,Tumebacillus avium,1903704
+       1,WP_095840262.1,WP_095840262.1,Chitinophaga sp.,2033437
+       1,WP_012374788.1,WP_012374788.1,Opitutus terrae,107709
+       1,WP_192219585.1,WP_192219585.1,Microcoleus sp.,2692830
+       2,WP_114082683.1,WP_114082683.1,Nostoc sp.,76335
+1,WP_114082683.1,MBD2510595.1,Desmonostoc muscorum,2692907
+       1,BAZ30183.1,BAZ30183.1,Cylindrospermum sp.,2005457
+       1,WP_204014595.1,WP_204014595.1,Virgisporangium aurantiacum,175570
+       1,WP_293063600.1,WP_293063600.1,Okeania sp.,2607784
+       1,QEO74372.1,QEO74372.1,uncultured bacterium,77133
+       1,RAM49068.1,RAM49068.1,Hapalosiphonaceae cyanobact...,2109628
+       1,WP_089125740.1,WP_089125740.1,Tolypothrix sp.,2005459
+       1,WP_190703078.1,WP_190703078.1,Nostoc sp.,2692837
+       1,WP_073634572.1,WP_073634572.1,Scytonema sp.,1137095
+       1,WP_094236594.1,WP_094236594.1,Tumebacillus algifaecis,1214604
+       1,MBE8964961.1,MBE8964961.1,Nostocales cyanobacterium,2777975
+       1,MBV9791906.1,MBV9791906.1,Chloroflexi bacterium,2026724
+       1,MBW4660750.1,MBW4660750.1,Drouetiella hepatica,904376
+       1,WP_181929914.1,WP_181929914.1,Nostoc edaphicum,264686
+       1,WP_255264359.1,WP_255264359.1,Desmonostoc muscorum,1179
+       1,WP_155746081.1,WP_155746081.1,Scytonema sp.,2304196
+       2,WP_233097884.1,WP_233097884.1,Dictyobacter vulcani,2607529
+1,WP_233097884.1,GER90193.1,Dictyobacter vulcani,2607529
+       1,WP_094348237.1,WP_094348237.1,Nostoc sp.,2014529
+       1,WP_204491092.1,WP_204491092.1,Archangium primigenium,2792470
+       1,MBW4556592.1,MBW4556592.1,Trichormus sp.,2835091
+       6,WP_012408785.1,WP_012408785.1,Nostoc punctiforme,272131
+5,WP_012408785.1,MBG1243114.1,Nostoc sp.,2650612
+4,WP_012408785.1,MBN3876528.1,Nostoc sp.,2815394
+3,WP_012408785.1,RCJ32145.1,Nostoc punctiforme,1356359
+2,WP_012408785.1,WP_292736160.1,Nostoc sp.,2815395
+1,WP_012408785.1,WP_292811070.1,Nostoc sp.,2815394
+       1,WP_179066287.1,WP_179066287.1,Nostoc sp.,2576902
+       2,WP_104899326.1,WP_104899326.1,Nostoc sp.,1261031
+1,WP_104899326.1,WP_292726622.1,Nostoc sp.,2815397
+       1,PYS91300.1,PYS91300.1,Acidobacteria bacterium,1978231
+       1,WP_190384637.1,WP_190384637.1,Aphanizomenon flos-aquae,1176
+       1,WP_052433231.1,WP_052433231.1,Streptacidiphilus carbonis,105422
+       1,WP_237378030.1,WP_237378030.1,Sulfidibacter corallicola,2818388
+       1,WP_100897690.1,WP_100897690.1,Nostoc flagelliforme,1306274
+       2,WP_096562230.1,WP_096562230.1,Scytonema sp.,2005464
+1,WP_096562230.1,WP_073629390.1,Scytonema sp.,1137095
+       1,MBT3355104.1,MBT3355104.1,Candidatus Scalindua,2268189
+       1,WP_293113091.1,WP_293113091.1,Moorena sp.,2607821
+       1,WP_100898072.1,WP_100898072.1,Nostoc flagelliforme,1306274
+       1,MBW4650219.1,MBW4650219.1,Kastovskya adunca,1446484
+       1,WP_012409514.1,WP_012409514.1,Nostoc punctiforme,272131
+       1,WP_193999874.1,WP_193999874.1,aff. Roholtiella,1828822
+       1,MCM0588747.1,MCM0588747.1,Gloeotrichia echinulata,2824560
+       1,WP_181929721.1,WP_181929721.1,Nostoc edaphicum,264686
+       33,WP_159048187.1,WP_159048187.1,Streptomyces sp.,1519480
+32,WP_159048187.1,AQT74912.1,Streptomyces sp.,1812480
+31,WP_159048187.1,GGQ01270.1,Streptomyces virginiae,1961
+30,WP_159048187.1,GLV93764.1,Streptomyces lavendulae,58340
+29,WP_159048187.1,KOU96303.1,Streptomyces sp.,1519482
+28,WP_159048187.1,MBP2347081.1,Streptomyces virginiae,1900
+27,WP_159048187.1,WP_158076170.1,Streptomyces amritsarensis,681158
+26,WP_159048187.1,WP_158714838.1,Streptomyces erythrochromog...,285574
+25,WP_159048187.1,WP_158717201.1,Streptomyces sp.,1463851
+24,WP_159048187.1,WP_158717863.1,Streptomyces sp.,1463842
+23,WP_159048187.1,WP_158718371.1,Streptomyces high,1883
+22,WP_159048187.1,WP_158718548.1,unclassified Streptomyces,2593676
+21,WP_159048187.1,WP_158721088.1,Streptomyces sp.,1463896
+20,WP_159048187.1,WP_158754520.1,Streptomyces sp.,1463841
+19,WP_159048187.1,WP_159040058.1,Streptomyces sp.,1519481
+18,WP_159048187.1,WP_159040414.1,Streptomyces virginiae,1961
+17,WP_159048187.1,WP_159040548.1,unclassified Streptomyces,2593676
+16,WP_159048187.1,WP_159040776.1,Streptomyces sp.,1519483
+15,WP_159048187.1,WP_159041193.1,unclassified Streptomyces,2593676
+14,WP_159048187.1,WP_159042334.1,Streptomyces sp.,1519486
+13,WP_159048187.1,WP_159042556.1,Streptomyces sp.,1519485
+12,WP_159048187.1,WP_159045315.1,Streptomyces sp.,1415556
+11,WP_159048187.1,WP_159046645.1,Streptomyces sp.,1519479
+10,WP_159048187.1,WP_159046870.1,Streptomyces sp.,1415563
+9,WP_159048187.1,WP_159050709.1,Streptomyces sp.,1776680
+8,WP_159048187.1,WP_159061980.1,Streptomyces sp.,1415554
+7,WP_159048187.1,WP_159395658.1,Streptomyces sp.,1964449
+6,WP_159048187.1,WP_159396307.1,Streptomyces sp.,1972846
+5,WP_159048187.1,WP_159425586.1,Streptomyces sp.,1812480
+4,WP_159048187.1,WP_191869209.1,Streptomyces virginiae,1961
+3,WP_159048187.1,WP_244305912.1,Streptomyces virginiae,1961
+2,WP_159048187.1,WP_266492470.1,Streptomyces erythrochromog...,285574
+1,WP_159048187.1,WP_278193704.1,Streptomyces sp.,2925833
+       1,MBT5891983.1,MBT5891983.1,Chromatiales bacterium,2026725
+       2,MCP5150486.1,MCP5150486.1,Chromatiales bacterium,2026725
+1,MCP5150486.1,MCP5153993.1,Ectothiorhodospiraceae bact...,2026737
+       3,WP_255208514.1,WP_255208514.1,Myxococcus sp.,2745137
+2,WP_255208514.1,NVJ02789.1,Myxococcus sp.,2745137
+1,WP_255208514.1,NVJ19297.1,Myxococcus sp.,2745138
+       1,GMK39948.1,GMK39948.1,Paenibacillus cellulosilyticus,375489
+       1,MCP5425323.1,MCP5425323.1,Gammaproteobacteria bacterium,1913989
+       1,WP_096679490.1,WP_096679490.1,Fischerella sp.,2005456
+       1,WP_171452966.1,WP_171452966.1,Myxococcus xanthus,34
+       1,WP_265276361.1,WP_265276361.1,Nostoc sp.,457945
+       10,CAG38891.1,CAG38891.1,Planktothrix agardhii,282417
+9,CAG38891.1,CAG38889.1,Planktothrix rubescens,282438
+8,CAG38891.1,CAG38890.1,Planktothrix agardhii,282416
+7,CAG38891.1,CAG38892.1,Planktothrix agardhii,282418
+6,CAG38891.1,CAG38893.1,Planktothrix rubescens,282439
+5,CAG38891.1,CAG38894.1,Planktothrix agardhii,282419
+4,CAG38891.1,CAG38898.1,Planktothrix rubescens,282440
+3,CAG38891.1,CAG38899.1,Planktothrix rubescens,282437
+2,CAG38891.1,CAG38900.1,Planktothrix agardhii,282415
+1,CAG38891.1,CAQ77042.1,Planktothrix mougeotii,545629
+       1,WP_211975783.1,WP_211975783.1,Chitinophaga hostae,2831022
+       1,ORY02001.1,ORY02001.1,Basidiobolus meristosporus,1314790
+       1,WP_006529542.1,WP_006529542.1,Gloeocapsa sp.,102232
+       1,MDJ0702180.1,MDJ0702180.1,Leptolyngbyaceae cyanobacte...,3036643
+       1,WP_188115013.1,WP_188115013.1,Streptomyces sp.,2750025
+       2,WP_190872319.1,WP_190872319.1,Aulosira sp.,2692777
+1,WP_190872319.1,WP_190588353.1,Nostocaceae cyanobacteria,1162
+       2,WP_292811475.1,WP_292811475.1,Nostoc sp.,2815394
+1,WP_292811475.1,WP_292733808.1,Nostoc sp.,2815395
+       1,WP_012362058.1,WP_012362058.1,Crocosphaera subtropica,2546360
+       3,WP_106972522.1,WP_106972522.1,Streptomyces yerevanensis,66378
+2,WP_106972522.1,WP_165338938.1,Streptomyces ureilyticus,1775131
+1,WP_106972522.1,WP_189324193.1,Streptomyces flaveus,66370
+       1,MBK8549759.1,MBK8549759.1,Ignavibacteria bacterium,2053306
+       1,WP_255264360.1,WP_255264360.1,Desmonostoc muscorum,1179
+       1,WP_190905041.1,WP_190905041.1,Anabaena catenula,1296320
+       1,NER23974.1,NER23974.1,Symploca sp.,2607769
+       1,WP_167721287.1,WP_167721287.1,Tolypothrix sp.,2099387
+       1,WP_070393501.1,WP_070393501.1,Moorena producens,1155739
+       1,WP_015217386.1,WP_015217386.1,Anabaena cyanobacteria,1163
+       2,HBQ99995.1,HBQ99995.1,Cyanobacteria bacterium,2055778
+1,HBQ99995.1,MBP0028825.1,Roseofilum sp.,2821502
+       1,QSJ20135.1,QSJ20135.1,Nostoc sp.,2814655
+       1,WP_263743501.1,WP_263743501.1,Plectonema radiosum,945768
+       33,WP_199930054.1,WP_199930054.1,Brevibacillus brevis,1393
+32,WP_199930054.1,WGV58339.1,Brevibacillus brevis,1393
+31,WP_199930054.1,WP_007716792.1,Brevibacillus sp.,1144308
+30,WP_199930054.1,WP_015892236.1,Brevibacillus brevis,1393
+29,WP_199930054.1,WP_016742499.1,Bacillales firmicutes,1385
+28,WP_199930054.1,WP_017250279.1,Brevibacillus brevis,1393
+27,WP_199930054.1,WP_047068486.1,Brevibacillus formosus,54913
+26,WP_199930054.1,WP_087348218.1,Brevibacillus brevis,1393
+25,WP_199930054.1,WP_088908527.1,Brevibacillus formosus,54913
+24,WP_199930054.1,WP_106653680.1,Brevibacillus brevis,1393
+23,WP_199930054.1,WP_106782785.1,Brevibacillus sp.,2126351
+22,WP_199930054.1,WP_106833645.1,Brevibacillus porteri,2126350
+21,WP_199930054.1,WP_106840165.1,Brevibacillus fortis,2126352
+20,WP_199930054.1,WP_142061550.1,Brevibacillus sp.,2572910
+19,WP_199930054.1,WP_142497562.1,Lysinibacillus sp.,2133753
+18,WP_199930054.1,WP_144613850.1,Brevibacillus brevis,1393
+17,WP_199930054.1,WP_172139964.1,Brevibacillus sp.,2738842
+16,WP_199930054.1,WP_173605533.1,Brevibacillus sp.,2738846
+15,WP_199930054.1,WP_173608314.1,Brevibacillus sp.,2738980
+14,WP_199930054.1,WP_173617113.1,Brevibacillus sp.,2738867
+13,WP_199930054.1,WP_173622263.1,Brevibacillus sp.,2738845
+12,WP_199930054.1,WP_173625017.1,Brevibacillus sp.,2738982
+11,WP_199930054.1,WP_174224414.1,Brevibacillus sp.,2738808
+10,WP_199930054.1,WP_174230321.1,Brevibacillus sp.,2738807
+9,WP_199930054.1,WP_197243965.1,Brevibacillus formosus,54913
+8,WP_199930054.1,WP_219662024.1,Brevibacillus formosus,54913
+7,WP_199930054.1,WP_221869044.1,Brevibacillus brevis,1393
+6,WP_199930054.1,WP_232773760.1,Brevibacillus sp.,2825881
+5,WP_199930054.1,WP_234124901.1,Brevibacillus brevis,1393
+4,WP_199930054.1,WP_237898815.1,Brevibacillus brevis,1393
+3,WP_199930054.1,WP_251254023.1,Brevibacillus sp.,2939560
+2,WP_199930054.1,WP_271754360.1,Brevibacillus sp.,3020891
+1,WP_199930054.1,WP_289673739.1,Brevibacillus brevis,1393
+       1,WP_069074216.1,WP_069074216.1,Nostoc sp.,457944
+       1,MBP5975680.1,MBP5975680.1,Brasilonema sp.,2748322
+       1,WP_239728727.1,WP_239728727.1,Nodularia sphaerocarpa,137816
+       1,QSJ20139.1,QSJ20139.1,Nostoc sp.,2814655
+       1,MDM3847800.1,MDM3847800.1,Aphanizomenon gracile,948687
+       1,BAZ30184.1,BAZ30184.1,Cylindrospermum sp.,2005457
+       2,WP_199351108.1,WP_199351108.1,Haliangium ochraceum,80816
+1,WP_199351108.1,ACY14297.1,Haliangium ochraceum,502025
+       1,NEO46167.1,NEO46167.1,Moorena sp.,2607836
+       1,WP_093230997.1,WP_093230997.1,Thermoflavimicrobium dichot...,46223
+       1,WP_143855660.1,WP_143855660.1,Nostoc sp.,2014531
+       2,WP_014173966.1,WP_014173966.1,Streptomyces bingchenggensis,379067
+1,WP_014173966.1,WP_264349529.1,Streptomyces milbemycinicus,476552
+       2,HBK22674.1,HBK22674.1,Planktothrix sp.,2055760
+1,HBK22674.1,HAO13784.1,Planktothrix sp.,2055758
+       1,WP_292720448.1,WP_292720448.1,Nostoc sp.,2815397
+       2,WP_124142773.1,WP_124142773.1,Okeania cyanobacteria,1458928
+1,WP_124142773.1,WP_287278211.1,unclassified Okeania,2634635
+       1,WP_190835602.1,WP_190835602.1,Iningainema tapete,2806730
+       1,BAZ54103.1,BAZ54103.1,Nostoc sp.,2005458
+       1,MBV9385322.1,MBV9385322.1,Chroococcidiopsidaceae cyan...,2801879
+       1,NEO43704.1,NEO43704.1,Moorena sp.,2607836
+       1,WP_229496438.1,WP_229496438.1,Nostoc mirabile,2907820
+       1,WP_084264373.1,WP_084264373.1,Actinomadura macra,46164
+       1,WP_263743504.1,WP_263743504.1,Plectonema radiosum,945768
+       1,WP_096563844.1,WP_096563844.1,Scytonema sp.,2005464
+       1,WP_158680250.1,WP_158680250.1,Nostoc sp.,1618022
+       2,WP_284080480.1,WP_284080480.1,Aphanizomenon sp.,2027336
+1,WP_284080480.1,MDK2407977.1,Aphanizomenon sp.,88823
+       6,WP_148763018.1,WP_148763018.1,Dolichospermum sp.,1914871
+5,WP_148763018.1,ACZ55945.1,Anabaena sp.,46234
+4,WP_148763018.1,MDB9435747.1,Dolichospermum lemmermannii...,3021789
+3,WP_148763018.1,MTJ18480.1,Dolichospermum sp.,2590014
+2,WP_148763018.1,WP_168652244.1,Dolichospermum sp.,2590011
+1,WP_148763018.1,WP_271835357.1,Dolichospermum lemmermannii,54295
+       1,WP_235473407.1,WP_235473407.1,Streptomyces sp.,2907545
+       1,MBD2194868.1,MBD2194868.1,Calothrix parietina,2692896
+       1,WP_012409015.1,WP_012409015.1,Nostoc punctiforme,272131
+       1,WP_193984698.1,WP_193984698.1,Phormidium sp.,2777964
+       1,WP_017291698.1,WP_017291698.1,Leptolyngbya cyanobacteria,47251
+       1,WP_210890942.1,WP_210890942.1,Streptomyces liliiviolaceus,2823109
+       1,WP_268812096.1,WP_268812096.1,Aphanizomenon flos-aquae,1176
+       1,MCA1565783.1,MCA1565783.1,Acidobacteria bacterium,1978231
+       1,MBE8967603.1,MBE8967603.1,Nostocales cyanobacterium,2777975
+       1,WP_070395082.1,WP_070395082.1,Moorena producens,1155739
+       1,UTO61708.1,UTO61708.1,Streptomyces rapamycinicus,1226757
+       1,MCG3209093.1,MCG3209093.1,Anaerolineae bacterium,2052143
+       1,WP_165256475.1,WP_165256475.1,Streptomyces scabichelini,2711217
+       1,WP_089130890.1,WP_089130890.1,Tolypothrix sp.,2005459
+       1,WP_094346113.1,WP_094346113.1,Nostoc sp.,2014531
+       1,NEQ64891.1,NEQ64891.1,Symploca sp.,2607789
+       1,MCP4659863.1,MCP4659863.1,bacterium bacteria,1869227
+       1,MBD2520503.1,MBD2520503.1,Nostoc sp.,2692844
+       2,WP_096549593.1,WP_096549593.1,Scytonema sp.,1137095
+1,WP_096549593.1,WP_073629400.1,Scytonema sp.,1137095
+       1,WP_012409512.1,WP_012409512.1,Nostoc punctiforme,272131
+       1,WP_237382469.1,WP_237382469.1,Sulfidibacter corallicola,2818388
+       1,MBP5973109.1,MBP5973109.1,Brasilonema sp.,2748322
+       1,MBW4678521.1,MBW4678521.1,Microcoleus vaginatus,2839660
+       1,KAB8320091.1,KAB8320091.1,Tolypothrix campylonemoides...,1245935
+       1,ASR75185.1,ASR75185.1,Nostoc sp.,457943
+       1,WP_196510321.1,WP_196510321.1,Nostoc sp.,2650612
+       1,WP_148662958.1,WP_148662958.1,Scytonema hofmannii,34078
+       1,WP_066612897.1,WP_066612897.1,Scytonema hofmannii,34078
+       1,MCA1568666.1,MCA1568666.1,Acidobacteria bacterium,1978231
+       2,WP_279498097.1,WP_279498097.1,Actinomadura rubrisoli,2530368
+1,WP_279498097.1,TDD93029.1,Actinomadura rubrisoli,2530368
+       1,WP_193197381.1,WP_193197381.1,Nostoc sp.,2721166
+       1,NJK48667.1,NJK48667.1,Candidatus Gracilibacteria,2044595
+       1,WP_201789097.1,WP_201789097.1,Scytonema hofmannii,34078
+       1,WP_271945069.1,WP_271945069.1,Roseofilum reptotaenium,1233427
+       1,MDF5712484.1,MDF5712484.1,Rhizonema sp.,3019273
+       1,MBW4635486.1,MBW4635486.1,Iphinoe sp.,1494767
+       1,HBL59459.1,HBL59459.1,Cyanobacteria bacterium,2055779
+       1,WP_198299662.1,WP_198299662.1,Tumebacillus avium,1903704
+       1,WP_228038150.1,WP_228038150.1,Nostoc sp.,1828643
+       3,WP_242462494.1,WP_242462494.1,Trichormus variabilis,264691
+2,WP_242462494.1,MBC1214598.1,Trichormus variabilis,2681314
+1,WP_242462494.1,MBC1312640.1,Trichormus variabilis,2681317
+       1,NND55035.1,NND55035.1,Gammaproteobacteria bacterium,1913989
+       1,WP_096685039.1,WP_096685039.1,unclassified Calothrix,2619626
+       1,MDF5727414.1,MDF5727414.1,Rhizonema sp.,3019275
+       1,GGA41733.1,GGA41733.1,Dyella nitratireducens,1849580
+       1,MBW4550746.1,MBW4550746.1,Aphanocapsa sp.,2835086
+       1,WP_006104246.1,WP_006104246.1,Coleofasciculus chthonoplastes,64178
+       1,NOK63911.1,NOK63911.1,Chloroflexi bacterium,2686367
+       1,UCM94172.1,UCM94172.1,Candidatus Megaira,2866314
+       1,WP_236144697.1,WP_236144697.1,Nostoc sp.,2055159
+       2,WP_146110921.1,WP_146110921.1,Nostoc sp.,1261031
+1,WP_146110921.1,WP_094328887.1,Nostoc sp.,2014530
+       1,MCX8131564.1,MCX8131564.1,Clostridia bacterium,2044939
+       1,WP_167844608.1,WP_167844608.1,Tolypothrix bouteillei,1246981
+       1,HCY85554.1,HCY85554.1,Desulfobacteraceae bacterium,2049433
+       1,WP_244142002.1,WP_244142002.1,aff. Roholtiella,1828822
+       1,MCG3145485.1,MCG3145485.1,Gammaproteobacteria bacterium,1913989
+       1,NEC85992.1,NEC85992.1,Streptomyces sp.,2706042
+       1,WP_174711634.1,WP_174711634.1,Nostoc sp.,2572090
+       1,KAB8321062.1,KAB8321062.1,Tolypothrix campylonemoides...,1245935
+       1,WP_096647409.1,WP_096647409.1,Calothrix brevissima,938406
+       1,MBI5032798.1,MBI5032798.1,Chloroflexi bacterium,2026724
+       1,WP_281278342.1,WP_281278342.1,Nocardia tenerifensis,228006
+       1,WP_167726652.1,WP_167726652.1,Tolypothrix sp.,2099387
+       1,QST87270.1,QST87270.1,Nostoc sp.,2814655
+       1,MBE9035788.1,MBE9035788.1,aff. Roholtiella,1828822
+       2,WP_229695050.1,WP_229695050.1,Streptomyces lacrimifluminis,1500077
+1,WP_229695050.1,WP_006380937.1,Streptomyces turgidiscabies,85558
+       1,WP_260333249.1,WP_260333249.1,Streptomyces sp.,2841597
+       1,WP_017742673.1,WP_017742673.1,Scytonema hofmannii,34078
+       2,WP_218026502.1,WP_218026502.1,Rhodococcus jostii,132919
+1,WP_218026502.1,WP_005263534.1,Rhodococcus opacus,37919
+       2,WP_269461530.1,WP_269461530.1,Methylocaldum marinum,1432792
+1,WP_269461530.1,BBA33066.1,Methylocaldum marinum,1432792
+       1,NEP12735.1,NEP12735.1,Symploca sp.,2607783
