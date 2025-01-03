@@ -1,7 +1,6 @@
-This repository contains a data processing pipeline designed to handle and analyze microbial genome and protein data, focusing on identifying and working with mcy (microcystin-producing) proteins and their genomic contexts, however can be used for any protein genes of interest.  The ultimate goal is to generate cleaned, aligned sequence files, being operon, prot, or genes of interest and 16S gene, for downstream phylogenetic tree constructions to compare the evolution of these genes.
+This repository contains a data processing pipeline designed to handle and analyze microbial genome and protein data, focusing on identifying and working with mcy (microcystin-producing) proteins and their genomic contexts, however can be used for any protein genes of interest.  The ultimate goal is to generate cleaned, aligned sequence files, being operon, protein, or genes of interest and then alongside 16S genes, for downstream phylogenetic tree constructions to compare the evolution of these genes.
 
-
-Before running this pipeline, ensure the following files are available in the same directory:
+Before running this pipeline, ensure the following files are available and accessible in the same directory:
 
 clusters.txt (from BLAST) — Cluster file for each mcy prot (or prots of interest), in its own directory (e.g A/clusters.txt, B/clusters.txt, and C/clusters.txt represent the 3 mcy prots)
 new.gcf2rRNA — Script for generating rRNA data.
