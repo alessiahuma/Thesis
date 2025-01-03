@@ -1,4 +1,4 @@
-This repository contains a data processing pipeline designed to handle and analyze microbial genome and protein data, focusing on identifying and working with mcy (microcystin-producing) proteins and their genomic contexts for the example, however can be used for any protein genes of interest.  The ultimate goal is to generate cleaned, aligned sequence files, being operon, prot, or genes of interest and 16S gene, for downstream phylogenetic tree constructions to compare the evolution of these genes.
+This repository contains a data processing pipeline designed to handle and analyze microbial genome and protein data, focusing on identifying and working with mcy (microcystin-producing) proteins and their genomic contexts, however can be used for any protein genes of interest.  The ultimate goal is to generate cleaned, aligned sequence files, being operon, prot, or genes of interest and 16S gene, for downstream phylogenetic tree constructions to compare the evolution of these genes.
 
 
 Before running this pipeline, ensure the following files are available in the same directory:
